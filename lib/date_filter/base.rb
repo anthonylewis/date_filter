@@ -1,6 +1,6 @@
 
 module DateFilter
-  module Extensions
+  module Base
     def self.included(base)
       base.send :extend, ClassMethods
     end

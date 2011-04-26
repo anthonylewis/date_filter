@@ -12,6 +12,8 @@ Gem::Specification.new do |s|
   s.summary     = %q{Adds newest and oldest methods to ActiveRecord}
   s.description = %q{Adds newest and oldest methods to ActiveRecord}
 
+  s.add_development_dependency "rspec"
+
   s.rubyforge_project = "date_filter"
 
   s.files         = `git ls-files`.split("\n")

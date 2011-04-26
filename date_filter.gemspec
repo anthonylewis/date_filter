@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.description = %q{Adds newest and oldest methods to ActiveRecord}
 
   s.add_development_dependency "rspec"
+  s.add_development_dependency "activerecord"
 
   s.rubyforge_project = "date_filter"
 

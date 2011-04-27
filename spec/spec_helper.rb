@@ -12,5 +12,8 @@ ActiveRecord::Base.establish_connection(
 
 # load the schema without output
 ActiveRecord::Migration.verbose = false
-load File.expand_path('../db/schema.rb', __FILE__)
+load File.expand_path('../schema.rb', __FILE__)
+
+# load the models
+load File.expand_path('../models.rb', __FILE__)
 
